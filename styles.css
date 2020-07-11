@@ -1,0 +1,106 @@
+.navbar-home{
+	padding-bottom: 3rem;
+    border-radius: 0px;
+}
+
+
+.logo-image{
+    width: 250px;
+    height: 70px;
+    /*border-radius: 50%;*/
+    overflow: hidden;
+    margin-top: -3px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-home .flag img{
+    display: inline;
+    height: 20px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 2.5rem;
+}
+
+.flag{
+    align-items: center;
+}
+
+.logo-size{
+    width: 170px;
+    height: 50px;
+    padding-left: 1.5rem;
+}
+
+.my-style{
+	justify-content: center;
+}
+
+
+.img-responsive, .thumbnail > img, 
+.thumbnail a > img, 
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+    display: block;
+        height: 450px;
+        max-width: 100%;
+        line-height: 1;
+        margin:auto;
+        width: 100%;
+        padding-top: -2rem;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px)
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-home{
+	margin-bottom: 0px;
+}
+
+.footer{
+	position: relative;
+	background-color: grey;
+	color: white;
+	padding-top: -2rem;
+	padding-bottom: -2rem;
+	margin-top: 3rem;
+}
+
+/*h4, .h4 {
+    font-size: 18px;
+    color: cadetblue;
+}*/
+
+.thumbnail img{
+	width: 280px;
+	height: 200px;
+}
+
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: coral;
+}
+
+.location p {
+	color: black;
+}
+
+h3, .h3 {
+    font-size: 24px;
+    color: #12ded5;
+    font-family: initial;
+}
